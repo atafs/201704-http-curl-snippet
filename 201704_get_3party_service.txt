@@ -1,0 +1,11 @@
+curl <api_url_service> \
+-X POST \
+-H 'Authorization:Bearer <secret>' \
+-H 'Accept: application/json' \
+-H 'Content-Type: application/json' -d '
+{
+    "user_id": "18",
+    "custom_attributes": {
+        "responsive_pages_user": true
+    }
+}'
