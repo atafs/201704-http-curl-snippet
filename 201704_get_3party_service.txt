@@ -9,3 +9,12 @@ curl <api_url_service> \
         "responsive_pages_user": true
     }
 }'
+
+curl <api_url_service> \
+-u <user>:<pass> \
+-H 'Accept: application/json' \
+-H 'Content-Type: application/json' -d '
+{
+    "id": "000000",
+    "xxx_yyy_zzz": true
+}'
